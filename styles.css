@@ -1,22 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h1.first-heading {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
 table {
-            border-collapse: collapse; /* Ensures borders combine properly */
-            border-spacing: 1px;
-            padding: 1px;
-            width: 100%;
-        }
-        td {
-            border: 1px solid black; /* Add 1px solid black border */
-            padding: 1px; /* Add 1px padding */
-        }
-        .center {
-            text-align: center;
-        }
-        .right {
-            text-align: right;
-        }
-        .green {
-            background-color: green;
-        }
-        .blue {
-            background-color: blue;
-        }
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1px;
+    text-align: left;
+}
+
+.middle {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+/* Table 2 Specific Styles */
+#table-2 td {
+    height: 50px;
+}
+
+/* Table 3 Specific Styles */
+.green {
+    background-color: green;
+    height: 20px;
+}
+
+.blue {
+    background-color: blue;
+    height: 20px;
+}
+
+#t-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
